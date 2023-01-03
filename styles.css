@@ -1,0 +1,170 @@
+html,body {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 100vh;
+  padding-bottom: 5vh;
+}
+
+Form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.navbar {
+  background: lightgray;
+  min-height: 70px;
+  width: 100vw;
+
+  font-size: 1rem;
+}
+
+.navbar.dark {
+  background: black !important;
+}
+
+.navbar span {
+  padding-left: 5px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+
+  padding: 0 5vw;
+}
+
+.right span div {
+  width: 120px;
+  text-align: center;
+}
+
+.itemCount {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  padding-right: 5px;
+  border-radius: 50%;
+  top: 20px;
+}
+
+.itemCount-light {
+  background: lightcoral;
+}
+
+.itemCount-dark {
+  background: darkcyan;
+}
+
+.dark {
+  background: darkgray;
+  color: white;
+}
+
+.light: {
+  background: grey;
+  color: black;
+}
+
+.content {
+  height: 80vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  min-height: 120px;
+
+  border-radius: 5px;
+}
+
+.tile-dark {
+  background: darkslateblue;
+  color: white;
+}
+
+.tile-light {
+  background: lightblue;
+  color: black;
+}
+
+.products {
+  width: 100vw; 
+  padding-top: 2vh;
+  
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+  max-height: 40vh;
+}
+
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  height: 10vh;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 2vh;
+}
+
+.cartItem-light {
+  background: lightblue; 
+}
+
+.cartItem-dark {
+  background: darkslateblue; 
+}
+
+.icon {
+  vertical-align: text-bottom;
+  cursor: pointer;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 10vh;
+  line-height: 5vh;
+  margin-bottom: 2vh;
+  padding: 0 10vw;
+}
+
+.total Button {
+  vertical-align: baseline;
+}
+
+.total-dark {
+  background: black;
+  color: white;
+}
+
+.total-light {
+  background: lightblue;
+  color: black;
+}
